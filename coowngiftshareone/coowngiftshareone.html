@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>co-ownership form myself</title>
+
+    <header class="header__image">
+
+        <div class='header__img'>
+            <img src="../image/image/image/personalinfo.svg" alt="personal information"  /><br/>Personal info<br/>
+            <input id="personal__headinfo" name"type="text"name="First Name"/><br/>
+        </div>
+
+
+        <div class='header__img' >
+            <img src="../image/image/image/gift.svg" alt="gift information"   /><br/>Gift info<br/>
+            <input class="header__info" name"type="text"name="First Name"/><br/>
+        </div>
+        
+
+        <div class='header__img'>
+            <img src="../image/image/image/summary.svg" alt="summary" /><br/>Summary<br/>
+            <input class="header__info" name"type="text"name="First Name"/><br/>
+        </div>
+    </div>
+   
+
+    </header>
+
+    <link rel="stylesheet" type="text/css" href="./coowngiftshareone.css" />
+</head>
+
+
+<!-- >>>>Body<<<< -->
+
+<body>
+    <div class="info">
+    <h1> Co-ownership Gift Shares<span>Application</span> </h1>
+    
+    <div  class="form_elem">
+        <h3 id="persona"> personal info</h3>
+
+    <form>
+        <label for="fname"></label><br>
+
+        <div class="form__one">
+        <input type="text" id="fname" placeholder="Firstname"type="text"name="First Name">
+       <input type="text" id="lname" placeholder=" Lastname"type="text"name="Last Name"><br/>
+    </div>
+
+        <input type="text" id="email" placeholder="Email"type="text"name="email"><br/>
+        <input type="text" id="phone__number>" placeholder="Phone number"type="text"name="Phone number"><br/>
+        <input type="text" id="BVN" placeholder="BVN"type="text"name="BVN"><br/>
+         
+        <!-- <input type="text" id="dob" placeholder="Date of birth" type="text"name="date of birth"><br/> -->
+    
+        <label for="username">Date of birth</label><br/>
+        <input  id="start"  onfocus="(this.type='date')" type="date" min="1900-01-01" max="2088-12-31"><br/>
+
+        <input type="option" placeholder="Marital Status" name="Marital status" list="networth">
+        <datalist id="networth">
+        <option value="Married">  
+        <option value="Single ">
+        <option value="Divorced">  
+        <option value="Widowed">
+        </datalist><br/>
+        <input type="text" id="gender" placeholder="Gender"type="text"name="gender"><br/>
+        <textarea placeholder="Residential Address"type="text"name="gender" ></textarea><br>
+        
+    </form>
+    <button><a href="../loginPageTwo/pagetwo.html">Next</a></button>
+    </div>
+    
+</div>
+</body>
+</html>
